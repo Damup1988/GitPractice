@@ -12,6 +12,9 @@ namespace GitPractice
         static void Main(string[] args)
         {
             NewFunc();
+            MyClass obj = new MyClass();
+            obj.a = 2;
+            obj.b = 4;
         }
     }
 }
