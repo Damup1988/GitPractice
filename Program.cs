@@ -26,6 +26,7 @@ namespace GitPractice
             MyClass2 person = new MyClass2("Damir", 32);
 
             System.Console.WriteLine($"Name: {person.Name}, age: {person.Age}");
+            System.Console.WriteLine("A messgae...");
         }
     }
 }
