@@ -22,6 +22,8 @@ namespace GitPractice
             MyClass obj = new MyClass();
             obj.a = 2;
             obj.b = 4;
+
+            System.Console.WriteLine("A messgae...");
         }
     }
 }
