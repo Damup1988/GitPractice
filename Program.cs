@@ -18,6 +18,10 @@ namespace GitPractice
         {
             NewFunc();
             AnotherFunc();
+
+            MyClass obj = new MyClass();
+            obj.a = 2;
+            obj.b = 4;
         }
     }
 }
