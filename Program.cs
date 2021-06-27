@@ -9,9 +9,15 @@ namespace GitPractice
             System.Console.WriteLine("Some new func");
         }
 
+        static void AnotherFunc()
+        {
+
+        }
+
         static void Main(string[] args)
         {
             NewFunc();
+            AnotherFunc();
         }
     }
 }
